@@ -1,0 +1,14 @@
+= sha1-mark
+
+Create a mark like the default user icon on GitHub from the SHA1 hash.
+
+== Usage
+
+```javascript
+var d = document.createElement("div");
+createMark(d, "da39a3ee5e6b4b0d3255bfef95601890afd80709");
+```
+
+== License
+
+sha1-mark is licensed under the MIT License.

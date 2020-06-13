@@ -1,0 +1,44 @@
+/*
+ * sha1-mark v1.0
+ *
+ * Copyright (C) 2020 S.Ishigaki
+ * Licensed under the MIT license
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Date: 2020-06-13
+ */
+.sha1-mark { position: relative; width: 40px; height: 40px; background-color: f0f0f0; border-radius: 3px; }
+.sha1-mark-inner { position: relative; top: 3px; left: 3px; width: 34px; height: 34px; }
+.sha1-mark-dot1 { position: absolute; width: 7px; height: 7px; }
+.sha1-mark-dot2 { position: absolute; width: 6px; height: 7px; }
+.sha1-mark-dot3 { position: absolute; width: 7px; height: 6px; }
+.sha1-mark-dot4 { position: absolute; width: 6px; height: 6px; }
+.sha1-mark-dot1.p00 { top:0; left:0; }
+.sha1-mark-dot1.p10 { top:0; left:7px; }
+.sha1-mark-dot2.p20 { top:0; left:14px; }
+.sha1-mark-dot1.p30 { top:0; left:20px; }
+.sha1-mark-dot1.p40 { top:0; left:27px; }
+
+.sha1-mark-dot1.p01 { top:7px; left:0; }
+.sha1-mark-dot1.p11 { top:7px; left:7px; }
+.sha1-mark-dot2.p21 { top:7px; left:14px; }
+.sha1-mark-dot1.p31 { top:7px; left:20px; }
+.sha1-mark-dot1.p41 { top:7px; left:27px; }
+
+.sha1-mark-dot3.p02 { top:14px; left:0; }
+.sha1-mark-dot3.p12 { top:14px; left:7px; }
+.sha1-mark-dot4.p22 { top:14px; left:14px; }
+.sha1-mark-dot3.p32 { top:14px; left:20px; }
+.sha1-mark-dot3.p42 { top:14px; left:27px; }
+
+.sha1-mark-dot1.p03 { top:20px; left:0; }
+.sha1-mark-dot1.p13 { top:20px; left:7px; }
+.sha1-mark-dot2.p23 { top:20px; left:14px; }
+.sha1-mark-dot1.p33 { top:20px; left:20px; }
+.sha1-mark-dot1.p43 { top:20px; left:27px; }
+
+.sha1-mark-dot1.p04 { top:27px; left:0; }
+.sha1-mark-dot1.p14 { top:27px; left:7px; }
+.sha1-mark-dot2.p24 { top:27px; left:14px; }
+.sha1-mark-dot1.p34 { top:27px; left:20px; }
+.sha1-mark-dot1.p44 { top:27px; left:27px; }
