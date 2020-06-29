@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2020 S.Ishigaki
  * Licensed under the MIT license
- * http://www.opensource.org/licenses/mit-license.php
+ * https://github.com/junk-box/sha1-mark
  *
  * Date: 2020-06-13
  */
@@ -184,7 +184,7 @@
 	}
 
 	var getColor = function (sha1, index) {
-		return parseInt(sha1.substring(index, index + 2), 16) < 128 ? "f0f0f0" : sha1.substring(0, 6);
+		return parseInt(sha1.substring(index, index + 2), 16) < 128 ? "#f0f0f0" : "#" + sha1.substring(0, 6);
 	}
 
 	window.createMark = createMark;

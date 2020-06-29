@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>sha1-mark</title>
+	<link href="sha1-mark.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha1/build/sha1.min.js"></script>
+	<script src="sha1-mark.js"></script>
+	<script>
+		function create() {
+			createMark(document.getElementById('mark'), sha1(document.getElementById('text').value));
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<input type="text" id="text">
+		<input type="button" value="create" onclick="create()">
+	</div>
+	<div id="mark"></div>
+</body>
+</html>
